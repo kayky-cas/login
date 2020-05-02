@@ -28,7 +28,6 @@ function pegarSessao() {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var dadosL = JSON.parse(this.responseText);
-            console.log(dadosL);
             corpo = document.getElementById('formDiv');   
             if(dadosL[0]=='err01'||dadosL[0]=='err02'){
                 alert("Usuário ou senhas incorretos!")
