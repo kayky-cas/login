@@ -14,14 +14,14 @@
             $_SESSION['nome'] = $userDados->nome;
         }
         else {
-            $_SESSION['email'] = "err";
-            $_SESSION['senha'] = "err";
-            $_SESSION['nome'] = "err";
+            $_SESSION['email'] = "err02";
+            $_SESSION['senha'] = "err02";
+            $_SESSION['nome'] = "err02";
         }
     }
     else {
-        $_SESSION['email'] = "err";
-        $_SESSION['senha'] = "err";
-        $_SESSION['nome'] = "err";
+        $_SESSION['email'] = "err01";
+        $_SESSION['senha'] = "err01";
+        $_SESSION['nome'] = "err01";
     }    
 ?>
